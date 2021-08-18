@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Test tusk</title>
+		
+		<link rel="stylesheet" href="css/reset.css">
+		
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="block-main">
+				
+				<div class="header__row">
+					<input class="header__input" type="text" placeholder="New tag">
+					<div class="header__readonly">
+						<input type="checkbox" disabled class="readonly__checkbox">
+						<span class="readonly__text">readonly</span>
+					</div>
+					<button type="button" class="header__button">Add</button>
+				</div>
+				
+				
+					<ul class="tag-list list">
+						<li class="list-item" id="1">
+							<div class="list-item__row">
+								<span class="list-item__text">Going to learn React</span>
+								<button type="button" class="list-item__trash">
+									
+									<img src="img/trash_delete_icon.svg">
+								</button>
+							</div>
+						</li>
+						<li class="list-item" id="2">
+							<div class="list-item__row">
+								<span class="list-item__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem laudantium, ea omnis ut atque culpa! Laudantium veniam reiciendis quia optio veritatis consequatur ut, ab, aliquid beatae maiores dolore possimus?</span>
+								<button type="button" class="list-item__trash">
+									
+									<img src="img/trash_delete_icon.svg">
+								</button>
+							</div>
+						</li>
+						<li class="list-item" id="3">
+							<div class="list-item__row">
+								<span class="list-item__text">Hello brother</span>
+								<button type="button" class="list-item__trash">
+									
+									<img src="img/trash_delete_icon.svg">
+								</button>
+							</div>
+						</li>
+						<li class="list-item" id="4">
+							<div class="list-item__row">
+								<span class="list-item__text">Hello mother</span>
+								<button type="button" class="list-item__trash">
+									
+									<img src="img/trash_delete_icon.svg">
+								</button>
+							</div>
+						</li>
+						<!-- NOTE: 4 items for example -->
+					</ul>
+				
+			</main>
+		</div>
+		
+		<script src="js/bundle.js"></script>
+	</body>
+</html>
